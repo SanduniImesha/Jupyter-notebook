@@ -50,4 +50,13 @@ def lab_1_problem_2(x, student_id):
 def lab_1_problem_3(x, student_id):
     return labx.lab_1_problem_3(x, student_id)
 
-__all__ = ["labx", "lab_1_problem_1", "lab_1_problem_2", "lab_1_problem_3"]
+def lab_2_problem_1(x, student_id):
+    return labx.lab_2_problem_1(x, student_id)
+
+def lab_2_problem_2(x, student_id):
+    return labx.lab_2_problem_2(x, student_id)
+
+def lab_2_problem_3(x, student_id):
+    return labx.lab_2_problem_3(x, student_id)
+
+__all__ = ["labx", "lab_1_problem_1", "lab_1_problem_2", "lab_1_problem_3", "lab_2_problem_1", "lab_2_problem_2", "lab_2_problem_3"]
